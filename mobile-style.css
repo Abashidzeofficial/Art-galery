@@ -1,0 +1,360 @@
+body{
+    background-color: #FCFAF9;
+    height: 100vh;
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+    /* height: 2811px;
+    width: 375px;
+    left: 5555px;
+    top: -897px; */
+    /* border-color: 4px solid red; */
+}
+ .modernarttext > p{
+     padding: 16px;
+    height: 112px;
+    width: 343px;
+    left: 16px;
+    top: 414px;
+    color: #444444;
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+}
+.modernarttext > h1{
+    padding: 16px;
+    height: 110px;
+    width: 343px;
+    left: 16px;
+    top: 272px;
+    font-family: 'Big Shoulders Display';
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 55px;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-button{
+   padding: 16px;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.yourdaytext{
+    padding: 40px;
+}
+.yourdaytext > h1{
+    height: 90px;
+    width: 343px;
+    left: 0px;
+    top: 0px;
+    font-family: 'Big Shoulders Display';
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 45px;
+}
+.imagegrid{
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+}
+.yourdaytext > p {
+   
+    height: 112px;
+    width: 343px;
+    left: 0px;
+    top: 111px;
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+    color: #444444;
+}
+.container{
+    background-color:#fff;
+    height: 2811px;
+    width: 375px;
+    left: 5555px;
+    top: -897px;
+    border-radius: 0px;
+}
+.imgtext > h1{
+    height: 90px;
+    width: 295px;
+    font-family: 'Big Shoulders Display';
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 45px;
+    color: #fff;
+    padding: 24px;  
+}
+.imgtext > p{
+    color: #FFF;
+    padding: 24px;
+    height: 84px;
+    width: 295px;
+    margin-top: -47px;
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+}
+.imgtext{
+    margin-top:-25px;
+    height: 293px;
+    width: 343px;
+    background-color: #151515;
+}
+.images{
+    padding: 16px;
+}
+.img2 {
+    padding-top: 16px;
+}
+.footerpart{
+    
+    height: 336px;
+    width: 375px;
+    background-color: #151515;
+}
+.foot > p{
+    margin-top: 45px;
+    height: 104px;
+    width: 311px;
+    font-family: 'Outfit', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 26px;
+    color: #fff;
+}
+.foot{
+    padding:35px; 
+}
+.iconimg{
+    margin-top:60px;
+}
+
+@media only screen and (max-width: 768px){
+   .tabletimage{
+       display: none;
+   } 
+   /* .imagegrid1{
+       display: none;
+   } */
+   .image222{
+       display: none;
+   }
+   .image-grid-33{
+    display: none; 
+   }
+   .iconimg{
+       display: none;
+   }
+}
+
+@media only screen and (min-width: 768px){
+    .container{
+        background-color:#fff;
+        height: 2287px;
+        width: 768px;
+        
+    }
+    .mobileimage {
+        display:none ;
+    }
+    .imagegrid3{
+        display: none;
+    }
+    .image-grid-3{
+        display: none;
+    }
+    .image-grid-2{
+        display: none;
+    }
+    .main-header{
+        display: flex;
+    }
+    .button{
+        margin-right:-45px;
+    }
+    .modernandbutton{
+        margin-top:90px;
+        margin-left:-10px;
+    }
+    .secondpart{
+        margin-top: 120px;
+        margin-left: 350px;
+      
+    }
+    .yourdaytext{    
+        margin-left: -350px;
+        margin-top: -350px;
+    }
+    .images{
+        display: flex;
+        margin-top: 50px;
+        justify-content: center;
+    }
+    .imgtext{
+        margin-top:324px;
+      margin-left: -280px;
+      height: 396px;
+      width: 280px;
+    }
+    .img2{
+        margin-top: -15px;
+        margin-left: 10px;
+    }
+    .footerpart {
+        display: flex;
+        margin-top:100px ;
+        height: 216px;
+        width: 768px;
+    }
+    
+    .foot > p{
+        margin-left: 180px;
+        margin-top: -50px;
+    }
+    .foot{
+        width: 768px;
+        height: 800px;
+    }
+    .modernart{
+        margin-top:30px;
+    }
+    .iconimg2{
+        display: flex;
+        margin-top: -180px;
+        margin-left: 530px;
+        
+    }  
+}
+
+@media only screen and (max-width: 1439px){
+   .desktopeimagehero{
+       display: none;
+   }
+   .desktopgrid1{
+    display: none;
+   }
+   .rectangle1{
+       display: none;
+   }
+   .rectangle44{
+     display: none;
+   }
+   .modernblacktext{
+       display: none;
+   }
+}
+@media only screen and (min-width: 1440px){
+    .container{
+        background-color:#fff;
+        height: 2554px;
+        width: 1440px;
+    }
+    .tabletimage{
+        display: none;
+    }
+    .imagegrid1{
+        display: none;
+    }
+    
+    .desktoprect{
+        height: 799px;
+        width: 450px;
+        background-color: #151515;
+        margin-top: -805px;
+        margin-left: -140px;
+    }
+    .desktopeimagehero{
+        margin-left: 300px;
+    
+    }
+    .modernarttext >h1{
+        display: none;
+    }
+    .modernduble{
+        height: 176px;
+        width: 514px;
+        background-image:url(/desktop/MODERN\ ART\ GALLERY.png);
+    }
+    .secondpart{
+        width: 1440px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 450px;
+        margin-top: 10px;
+    }
+   .image222{
+       display: none;
+   }
+   .image-grid-33{
+    display: none; 
+   }
+
+   .imgtext{
+    height: 395px;
+    width: 445px;
+    margin-left:-445px;
+   } 
+
+   .footerpart{
+    height: 244px;
+    width: 1440px;
+   }
+   .iconimg{
+       display: none;
+   }
+   .iconimg2{
+    display: flex;
+    margin-top: -100px;
+    margin-left: 1009px;
+}
+
+.foot > p{
+    margin-left: 461px;
+}
+.modernart{
+    margin-top: 42px;
+    margin-left: 50px;
+}
+.modern-white{
+    margin-top: 250px;
+    margin-left: 160px;
+}
+.modernblacktext{
+    position:absolute;
+    height: 176px;
+    width: 514px;
+    margin-left: 90px;
+    margin-top:250px;
+    font-family: "Big Shoulders Display";
+    font-size: 96px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 0px;
+    text-align: right;
+    mix-blend-mode: difference;
+    color: white;
+    z-index: 3;
+}
+.yourdaytext > h1 {
+    padding: 34px;
+}
+.yourdaytext >p{
+    padding: 34px;
+}
+}
+
+ 
+
+
+
