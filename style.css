@@ -34,7 +34,7 @@ body{
     letter-spacing: 3.6363637447357178px;
 }
 .map{
-    background-image: url(/mobile/image-map.png);
+    background-image: url(mobile/image-map.png);
     width: 375px;
     height: 550px;
 }
